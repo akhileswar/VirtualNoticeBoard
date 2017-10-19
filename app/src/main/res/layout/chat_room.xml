@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/name"
+
+
+    >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:background="#B3ffffff"
+        android:dividerHeight="9dp"
+        android:divider="@drawable/name"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:layout_alignTop="@+id/button"
+        android:id="@+id/editText"
+        android:background="@drawable/but"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="12dp"
+        android:hint="    Enter some text"
+
+        android:maxLines="10"
+        android:layout_toStartOf="@+id/button"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/button"
+        android:background="@drawable/yell"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="15dp"
+        android:text=">>"
+        android:textSize="30sp" />
+
+
+
+
+</RelativeLayout>

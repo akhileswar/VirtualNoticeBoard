@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.savio.hp.virtualnoticeboard.events"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#006633"
+        android:id="@+id/re111">
+
+        <TextView
+            android:text="chatala16@iiitkot..."
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/gmail_view"
+            android:textColor="#80ffffff"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:paddingTop="30dp"
+            android:paddingLeft="5dp"
+            android:background="#006633"
+            android:layout_toStartOf="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/textView4"
+            android:textStyle="normal|bold"
+            android:textSize="13sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:paddingTop="25dp"
+            android:text="Sign Out"
+            android:layout_toStartOf="@+id/button111" />
+        <Button
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:id="@+id/button111"
+            android:paddingRight="10dp"
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:background="@android:drawable/ic_lock_power_off"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="21dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D9006633">
+
+        <Button
+            android:text="Events"
+            android:layout_width="180sp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/button10"
+            android:background="#00ffffff"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:paddingRight="15dp" />
+
+        <Button
+            android:text="complaints"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/button11"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/button10"
+            android:paddingRight="10dp"
+            android:textStyle="italic"
+            android:textColor="#99ffffff"
+            android:textSize="14sp"
+            android:background="#006633" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/eee"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#FF000000"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:text="clubs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button1"
+            android:background="@drawable/button_border"
+            android:textSize="20sp"
+            android:paddingRight="40dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginStart="11dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/img1"
+            android:textStyle="italic"
+            android:textColor="#B3000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:paddingLeft="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imge"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/akhil"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#FF000000"/>
+
+        <Button
+            android:text="internships"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button2"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/imge"
+            android:background="@drawable/button_border"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:paddingRight="40dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginStart="11dp"
+            android:textStyle="normal|italic"
+            android:textColor="#B3000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:paddingLeft="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/kk"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#FF000000"/>
+
+        <Button
+            android:text="Academics"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button3"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/img3"
+            android:background="@drawable/button_border"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:paddingRight="40dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginStart="11dp"
+            android:textColor="#B3000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:paddingLeft="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/oooo"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#FF000000"/>
+
+        <Button
+            android:text="others"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button4"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/img4"
+            android:background="@drawable/button_border"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:paddingRight="40dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginStart="11dp"
+            android:textColor="#B3000000" />
+    </RelativeLayout>
+
+</LinearLayout>
